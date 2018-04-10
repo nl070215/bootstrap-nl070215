@@ -1,0 +1,168 @@
+/*css utilized in entire site*/
+body {
+    position: relative;
+}
+
+
+
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0;
+}
+
+.audio-length {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+
+
+/*start navigation*/
+#nav-init {
+    position: fixed;
+    height: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    margin-left: -16px;
+}
+.navbar img{
+    position: absolute;
+    
+}
+
+ul {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -5px;
+    list-style-type: none;
+    z-index: 200;
+
+}
+
+li a {
+    margin-top: 10px;
+    display: block;
+
+
+}
+
+li .dot  {
+    height: 15px;
+    width: 15px;
+    background-color: #939597;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+
+}
+
+li a:link .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #939597;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s ease;
+}
+
+
+li a:hover .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbbdc0;
+    transition: background-color 0.8s ease;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+li a:active .dot, 
+.nav-link.active > .dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1000;
+
+}
+/*end navigation*/
+
+
+/*Start introduction full screen with quote*/
+.blank-full { 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center-quote {
+    position: relative;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-quote h1 {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+    top: 50%;   
+}
+
+
+/*Start video background full screen with project title*/
+#full-vid video {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#title-vid video {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.headline {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.headline h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 8vw;
+    letter-spacing: 20pt;
+    text-align: center;
+    text-indent: 0.2em;
+    color: white;  
+}
+
+.headline h2 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 2vw;
+    text-align: center;
+    color: white;   
+}
+
+.headline h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.75vw;
+    letter-spacing: 6pt;
+    text-indent: -1em;
+    text-align: center;
+    color: white;
+}
