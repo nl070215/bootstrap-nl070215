@@ -119,17 +119,18 @@ li a:active .dot,
 
 
 /*Start video background full screen with project title*/
-#full-vid video {
+
+
+#title-vid {
     position: relative;
     width: 100%;
-    height: auto;
 }
 
-#title-vid video {
-    position: relative;
-    width: 100%;
-    height: auto;
+.element.style {
+    background-position: 0vw 0vw;
+    bottom: 0;
 }
+
 
 
 .headline {
